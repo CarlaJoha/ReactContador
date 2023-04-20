@@ -8,7 +8,6 @@ function App() {
 
   const [numClicks, setNumClicks] = useState(0);
  
-
   const handleClickAumentar = () => {
     setNumClicks(numClicks + 1);
   }
