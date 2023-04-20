@@ -13,14 +13,12 @@ function App() {
   }
   const handleClickDisminuir = () => {
     numClicks > 0 ? setNumClicks( numClicks - 1) : setNumClicks(0)
-
   }
   const resetCounter = () => {
     setNumClicks(0);
   }
 
-
-  return (
+ return (
     <div className="App">
       <div className="logo-contenedor">
         <img 
